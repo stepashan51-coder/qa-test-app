@@ -5,13 +5,14 @@
 <h2>Product Catalog</h2>
 <input type='text' id='search' placeholder='Search products'>
 <button onclick='filterProducts()'>Search</button>
-<button onclick='sortProducts()'>Sort by Name</button>
+<button onclick='sortByName()'>Sort by Name</button>
+<button onclick='sortByPrice()'>Sort by Price</button>
 <ul id='productList'>
-    <li data-name='Apple'>Apple - $1</li>
-    <li data-name='Banana'>Banana - $2</li>
-    <li data-name='Orange'>Orange - $3</li>
-    <li data-name='Mango'>Mango - $4</li>
-    <li data-name='Grapes'>Grapes - $5</li>
+    <li data-name='Apple' data-price='1'>Apple - $1</li>
+    <li data-name='Banana' data-price='2'>Banana - $2</li>
+    <li data-name='Orange' data-price='3'>Orange - $3</li>
+    <li data-name='Mango' data-price='4'>Mango - $4</li>
+    <li data-name='Grapes' data-price='5'>Grapes - $5</li>
 </ul>
 <div id='pagination'>
     <button onclick='prevPage()'>Prev</button>
